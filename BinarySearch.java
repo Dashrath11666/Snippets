@@ -1,3 +1,8 @@
+
+// Use start + (end-start)/2        | coz : if start == end == Integer.MAX_INT; it will overflow.
+
+
+
 /**
 public class Solution {
 public int[] searchRange(int[] nums, int target) {
